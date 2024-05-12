@@ -1,2 +1,1 @@
-# bokepsimontok
-bokepsimontok
+A live demo of the project is available
