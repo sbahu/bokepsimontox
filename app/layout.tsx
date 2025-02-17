@@ -1,29 +1,27 @@
 import "./globals.css";
-import Script from "next/script";
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
-import { SITENAME } from "@/lib/constants";
 import { ThemeProvider } from "@/components/theme-provider";
+import { SITENAME } from "@/lib/constants";
 
 const font = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
     title: `${SITENAME} - Video Bokep Indo Viral Terbaru`,
     description: `${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma korea china tante live paksa ngentot abg cewek pelajar.`,
-    metadataBase: new URL("https://bokepsimontok.com"),
+    metadataBase: new URL("https://bokepbocilsange.pages.dev"),
     alternates: {
         canonical: `/`,
     },
     openGraph: {
-        title: `${SITENAME} - Video Bokep Indo Jepang Barat Viral Terbaru`,
+        title: `${SITENAME} - Video Bokep Indo Viral Terbaru`,
         description: `${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma korea china tante live paksa ngentot abg cewek pelajar.`,
         url: `/`,
         type: `website`,
     },
     verification: {
-	bing: '4F4773523B4093891272F09BBB812F48',
-        google: 'PblRrOVZVFzHdn-Rp6-X0LZCPQTctZkxHAvX6x9LQ0s',
-        yandex: '1a03b464aa7e9f79',
+        google: '3BlhiGGHStHYFT995ShHHxB0kXmR3yI2i0G3H_mVZa8',
+        yandex: '93d743a88bd7fbba',
     },
 };
 
@@ -39,35 +37,24 @@ export default function RootLayout({
         "@type": "Organization",
         "name": `${SITENAME}`,
         "description": `${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma korea china tante live paksa ngentot abg cewek pelajar.`,
-        "logo": "https://bokepsimontok.com/favicon.ico",
-        "url": "https://bokepsimontok.com",
+        "logo": "https://bokepbocilsange.pages.dev/favicon.ico",
+        "url": "https://bokepbocilsange.pages.dev",
         "founder":{
             "@type":"Person",
             "name":"admin",
-            "url":"https://bokepsimontok.com"
+            "url":"https://bokepbocilsange.pages.dev"
             },
-            "foundingDate":"2024-04-09"
-        }
-        const jsonLd1 = {
-            "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": `${SITENAME}`,
-        "url": "https://bokepsimontok.com",
-        "description": `${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma korea china tante live paksa ngentot abg cewek pelajar.`,
-        "image": "https://bokepsimontok.com/favicon.ico",
-        "potentialAction":{
-            "@type":"ReadAction",
-            "target":"https://bokepsimontok.com"}
+            "foundingDate":"2024-06-10"
         }
         const jsonLd2 = {
             "@context": "https://schema.org",
         "@type": "WebSite",
         "name": `${SITENAME}`,
-        "url": "https://bokepsimontok.com",
+        "url": "https://bokepbocilsange.pages.dev",
         "description": `${SITENAME} Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma korea china tante live paksa ngentot abg cewek pelajar.`,
         "potentialAction": { 
         "@type": "SearchAction", 
-          "target": "https://bokepsimontok.com/?q={search_term}", 
+          "target": "https://bokepbocilsange.pages.dev/?q={search_term}", 
             "query-input": "required name=search_term"}
         }
     return (
@@ -85,16 +72,11 @@ export default function RootLayout({
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd1) }}
-        />
-        <script
-          type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd2) }}
         />
                     {children}
                 </ThemeProvider>
             </body>
-<Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2w264x294&u=http%3A%2F%2Fwww.juicyads.rocks"/>
         </html>
     );
 }
