@@ -86,6 +86,8 @@ export default function Footer() {
                         {SITENAME} &copy; {year} &mdash; Inc. All rights
                         reserved.
                     </p>
+                    <script type='text/javascript' src='//pl16170729.effectiveratecpm.com/b3/45/84/b345842bfb07df1db75bfcf1a898e0da.js'></script>
+<script type='text/javascript' src='//pl16137966.effectiveratecpm.com/9b/ba/96/9bba96fc062c0d581ee2a6d06d426de2.js'></script>
                 </div>
             </div>
         </footer>
